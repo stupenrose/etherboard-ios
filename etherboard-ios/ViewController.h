@@ -9,4 +9,8 @@
 
 @interface ViewController : UIViewController
 
+- (NSURLRequest*)website;
+
+@property (weak, nonatomic) IBOutlet UIWebView* iPhoneWebView;
+
 @end

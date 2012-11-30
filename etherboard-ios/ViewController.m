@@ -14,10 +14,22 @@
 
 @implementation ViewController
 
+- (NSURLRequest*) website
+{
+    NSURL *url =
+     [NSURL URLWithString:
+          [NSString stringWithFormat:@"http://www.reddit.com"]
+     ];
+    
+    NSURLRequest *request = [ NSURLRequest requestWithURL: url ];
+    return request;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSURLRequest* site = [self website];
+    [self.iPhoneWebView loadRequest:site];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +38,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-@end
+@end					
