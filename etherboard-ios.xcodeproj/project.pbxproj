@@ -461,6 +461,7 @@
 				39214ADF16684FB000408BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39214AE016684FB000408BC7 /* Build configuration list for PBXNativeTarget "etherboard-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				39214AE216684FB000408BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
