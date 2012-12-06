@@ -24,6 +24,8 @@
 		39214ACF16684FB000408BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39214AA716684FAF00408BC7 /* Foundation.framework */; };
 		39214AD716684FB000408BC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39214AD516684FB000408BC7 /* InfoPlist.strings */; };
 		39214ADA16684FB000408BC7 /* etherboard_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39214AD916684FB000408BC7 /* etherboard_iosTests.m */; };
+		39DBA644166D71E6006AB791 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DBA642166D71E6006AB791 /* SettingsViewController.m */; };
+		39DBA645166D71E6006AB791 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DBA643166D71E6006AB791 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		39214AD616684FB000408BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39214AD816684FB000408BC7 /* etherboard_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = etherboard_iosTests.h; sourceTree = "<group>"; };
 		39214AD916684FB000408BC7 /* etherboard_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = etherboard_iosTests.m; sourceTree = "<group>"; };
+		39DBA641166D71E6006AB791 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		39DBA642166D71E6006AB791 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		39DBA643166D71E6006AB791 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,9 @@
 			children = (
 				39214AB416684FAF00408BC7 /* AppDelegate.h */,
 				39214AB516684FAF00408BC7 /* AppDelegate.m */,
+				39DBA641166D71E6006AB791 /* SettingsViewController.h */,
+				39DBA642166D71E6006AB791 /* SettingsViewController.m */,
+				39DBA643166D71E6006AB791 /* SettingsViewController.xib */,
 				39214ABD16684FB000408BC7 /* ViewController.h */,
 				39214ABE16684FB000408BC7 /* ViewController.m */,
 				39214AC016684FB000408BC7 /* ViewController_iPhone.xib */,
@@ -240,6 +248,7 @@
 				39214ABC16684FB000408BC7 /* Default-568h@2x.png in Resources */,
 				39214AC216684FB000408BC7 /* ViewController_iPhone.xib in Resources */,
 				39214AC516684FB000408BC7 /* ViewController_iPad.xib in Resources */,
+				39DBA645166D71E6006AB791 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 				39214AB216684FAF00408BC7 /* main.m in Sources */,
 				39214AB616684FAF00408BC7 /* AppDelegate.m in Sources */,
 				39214ABF16684FB000408BC7 /* ViewController.m in Sources */,
+				39DBA644166D71E6006AB791 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
